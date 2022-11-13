@@ -7,11 +7,11 @@ export default function onboarding1() {
       <Image
         style={styles.tinyLogo}
         source={{
-          uri: 'https://lun-eu.icons8.com/a/-1S3gyb6CEWwqeu2v0DvOA/q-Jy1zBVyUCDXrJhGwYJuw/icons8-restaurant-menu-101.png',
+          uri: 'https://lun-us.icons8.com/a/SOl9rga1Ykui73RT0mNKuw/2jeuV-wq20GxlPzwiXnfyQ/noun_Binoculars_1107295.png',
         }}
       />
-      <Text style={styles.browseFood}>Browse Food</Text>
-      <Text style={styles.Welcome}>Welcome to our restaurant app! Log in and check  out our delicious food.</Text>
+      <Text style={styles.browseFood}>Quick Search</Text>
+      <Text style={styles.Welcome}>Quickly find food items you like the most</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     marginBottom:20
   },
   Welcome:{
-    width: 300,
+    width: 250,
       color:'white',
       fontSize:17,
       textAlign:'center',

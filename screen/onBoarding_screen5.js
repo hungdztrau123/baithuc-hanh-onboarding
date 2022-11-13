@@ -7,11 +7,11 @@ export default function onboarding1() {
       <Image
         style={styles.tinyLogo}
         source={{
-          uri: 'https://lun-eu.icons8.com/a/-1S3gyb6CEWwqeu2v0DvOA/q-Jy1zBVyUCDXrJhGwYJuw/icons8-restaurant-menu-101.png',
+          uri: 'https://lun-us.icons8.com/a/SOl9rga1Ykui73RT0mNKuw/5FiR36NNt0GBvmrjkCywVw/noun_mac_2076879.png',
         }}
       />
-      <Text style={styles.browseFood}>Browse Food</Text>
-      <Text style={styles.Welcome}>Welcome to our restaurant app! Log in and check  out our delicious food.</Text>
+      <Text style={styles.browseFood}>Apple Pay</Text>
+      <Text style={styles.Welcome}>We know you’re busy, so you can pay with your phone in just one click</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     marginBottom:20
   },
   Welcome:{
-    width: 300,
+   width: 300,
       color:'white',
       fontSize:17,
       textAlign:'center',
